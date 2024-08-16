@@ -1,0 +1,93 @@
+*{
+    box-sizing:border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: aliceblue;
+}
+.container{
+    max-width:1260px;
+    width:100%;
+    padding: 0px 25px;
+    margin: 0 auto;
+}
+ul li{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+.course-section{
+    padding: 80px 0px;
+}
+.course{
+    display: flex;
+    gap:50px;
+}
+.course-menu ul li a{
+    display: block;
+    color:#000;
+    padding: 10px 20px;
+    background-color: #fff;
+    border:1px solid pink;
+    margin-bottom:15px;
+    width:200px;
+    text-align: center;
+    transition: 0.3s;
+    font-weight: 500;
+}
+.course-menu ul li a:hover{
+    color:rgb(128, 44, 58);
+    border:1px solid rgb(128, 44, 58);
+}
+
+.details-card{
+    display: flex;
+    gap:30px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.course-img img{
+    width:250px;
+    height:100%;
+    border-radius: 10px 0px 0px 10px;
+}
+.course-info{
+    padding: 20px 25px 20px 0px;
+}
+.course-info h2{
+    font-size:24px;
+    font-weight:700;
+    line-height: 34px;
+    text-transform: capitalize;
+}
+.course-info p{
+    font-size:16px;
+    font-weight:400;
+    line-height: 22px;
+    text-align:justify;
+    padding:10px 0px;
+}
+
+.course-info nav ul li{
+    display: inline-block;
+    padding: 0px 25px;
+    border-right:1px solid #333;
+}
+.course-info nav ul li:last-child{
+    border-right:none;
+}
+.course-info nav ul li:first-child{
+    padding: 0px 25px 0 0;
+}
+.course-info nav ul li a{
+    color: #333;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.course-info nav ul li a:hover{
+    color: pink;
+}
+

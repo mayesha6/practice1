@@ -1,0 +1,21 @@
+@media only screen and (max-width: 768px) {
+    .course{
+      flex-direction: column;      
+  }
+  .course-menu ul li a{
+    width:100%;
+}
+  }
+@media only screen and (max-width: 575px) {
+  .details-card{
+    flex-direction: column; 
+    gap:0;
+}
+.course-img img{
+  width:100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.course-info{
+  padding:25px;
+}
+  }
